@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from 'react';
 import './Recorder.css';
 import { useDispatch, useSelector } from 'react-redux';
 import cx from 'classnames';
-import { start, stop, selectDateStart } from '../../redux/recorder';
+import { start, stop, selectDateStart } from '../../redux/recoder/recoder.reducer';
 
 const addZero = (num: number) => (num < 10 ? `0${num}` : `${num}`);
 
